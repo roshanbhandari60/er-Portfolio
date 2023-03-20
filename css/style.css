@@ -509,7 +509,7 @@ footer p:nth-child(2) {
 }
 
 /* Blogs */
-.project-home {
+/* .project-home {
     position: relative;
     width: 100vw;
     height: 30vh;
@@ -538,6 +538,72 @@ body {
     width: 10px;
 }
 ::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent,#0ef);
+    border-radius: 12px;
+} */
+
+
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.project-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111318;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.project-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-img{
+    width: 250px;
+    border-radius: 30px;
+    margin: 10px;
+    height: 250px;
+}
+.project-title{
+    color: #0ef;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+.project-description{
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+}
+.project-date{
+    color: #0ef;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.project-home{
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+    color: #fff;
+}
+.project-language{
+    font-weight: 500;
+    font-style: italic;
+    color: #534ba1;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
     background: linear-gradient(transparent,#0ef);
     border-radius: 12px;
 }

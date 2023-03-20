@@ -203,8 +203,8 @@ font-size: 1rem;
 .skillz .item-text .w-80{
     margin-left: 75%;
 }
-.skillz .item-text .w-70{
-    margin-left: 65%;
+.skillz .item-text .w-40{
+    margin-left: 35%;
 }
 .skillz .item-text .w-60{
     margin-left: 55%;
@@ -244,8 +244,8 @@ font-size: 1rem;
 .progress-bar.w-90{
     width: 90%;
 }
-.progress-bar.w-70{
-    width: 70%;
+.progress-bar.w-40{
+    width: 40%;
 }
 .progress-bar.w-75{
     width: 75%;

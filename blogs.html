@@ -1,34 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhuwan Acharya | Portfolio  Website</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bhuwan Acharya | Portfolio  Website</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/style.css">
+        <meta property="og:url" content=https://roshanbhandari60.github.io/portfolio/>
+        <meta property="og:description"
+            content="I am an experienced web developer with over 2 years of expertise in the web development field. I am knowledgeable in HTML, CSS, JavaScript, PHP and Python." />
+            <meta property="og:image" content="https://roshanbhandari60.github.io/portfolio/images/bhuwan.jpg" />
+            <link rel="icon" href="./images/favicon.ico" sizes="any"><!-- 32×32 -->
+            <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+            <link rel="icon" sizes="32x32" href="./images/favicon.ico">
+            <link rel="icon" sizes="192x192" href="./images/android-chrome-192x192.png">
+            <link rel="icon" sizes="512x512" href="./images/android-chrome-512x512.png">
+            <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+            <meta name="google-site-verification" content="2KYior2X6gnKr3Bh37McsHZ3szvJanuZUABIRV83YZA" />
+        </head>
 <body>
     <header class="header">
         <a href="./index.html" class="logo">Port<span class="title-color">folio.</span> </a>
         <nav class="navbar">
-            <a href="./index.html" class=" main" style="--i:1">Home</a>
-            <!-- <a href="index.html#skills" class="skills" style="--i:2">Skills</a> -->
-            <a href="#" style="--i:3" class="active">Blogs</a>
+            <a href="./index.html" style="--i:1">Home</a>
+            <!-- <a href="#" style="--i:3" class="active">Blogs</a> -->
             <!-- <a href="./contact.html" style="--i:4">Contact</a> -->
-            <a href="https://wa.me/+9779821669048" class="hire-me" style="--i:5">Hire Me</a>
+            <a href="https://wa.me/+9779765583180" class="hire-me" style="--i:5">Hire Me</a>
         </nav>
     </header>
-    <section class="home">
+    <section class="project-home">
         <div class="home-content">
-            <h3>No Blogs Available.</h3>
-            <a  href="index.html" class="btn">Return</a>
-        </div>
-        <div class="home-img">
-            <img src="./images/main.png" alt="Bhuwan Acharya Upadhyaya" >
+            <h3>Checkout the Recent Blogs.</h3>
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="js/index.js"></script>
+    <section class="projects">
+        <div class="project-item">
+            <img data-aos="fade-in" class="project-img" src="./images/entranceioe2079.pdf" alt="">
+            <div class="project-info">
+                <h2 data-aos="slide-down" class="project-title">IOE Entrance 2079 - By Roshan Bhandari
+                </h2>
+                <p data-aos="slide-up" class="project-description">This is the whole about Past Question of IOE Entrance Examination 2079.Throughout the model, I provide an in-depth memorable past question from my shift and share you to provide competitive analysis and help. </p>
+                <p data-aos="fade-up" class="project-date">2079 - 12 - 06</p>
+                <a data-aos="fade-up" download target="_blank" href="./downloadable/entranceioe2079.pdf" class="btn-2">Download Course</a>
+                <br><br>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="social-media" data-aos="fade-up">
+            <a href="https://www.facebook.com/roshan.bhandari.3367174/" ><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/broshannp_60/"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://github.com/roshanbhandari60"><i class='bx bxl-github' ></i></a>
+            <a href="https://wa.me/+9779765583180"><i class='bx bxl-whatsapp' ></i></a>
+        </div> 
+        <p>CopyRight &copy; By Roshan Bhandari 2023 </p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        duration: 500,
+      });
+    </script>
 </body>
 </html>

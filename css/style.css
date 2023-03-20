@@ -507,3 +507,37 @@ footer{
 footer p:nth-child(2) {
     width: 100%;
 }
+
+/* Blogs */
+.project-home {
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+    color: #fff;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+body {
+    background-color: #1f242d;
+    color: #fff;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent,#0ef);
+    border-radius: 12px;
+}

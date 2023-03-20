@@ -494,6 +494,9 @@ footer p:nth-child(2){
         justify-content: center;
         align-items: center;
     }
+    .project-title{
+        text-align: center;
+    }
   }
   .about-text{
     width: 100%;

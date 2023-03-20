@@ -489,6 +489,11 @@ footer p:nth-child(2){
     .skillz .row{
         grid-template-columns: repeat(1,1fr);
     }
+    .project-item{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
   }
   .about-text{
     width: 100%;
